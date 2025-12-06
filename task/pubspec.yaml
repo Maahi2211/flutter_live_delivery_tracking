@@ -1,0 +1,39 @@
+name: task
+description: "Flutter Live Delivery Tracking Module - Interview Assignment"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management - BLoC
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+  
+  # Map Integration - OpenStreetMap
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+  
+  # Utilities
+  equatable: ^2.0.5
+  get_it: ^7.7.0
+  intl: ^0.19.0
+  
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/mock/
